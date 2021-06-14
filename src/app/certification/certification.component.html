@@ -1,0 +1,28 @@
+<div class="projects mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-login">
+                    <div class="card-header card-header-danger text-center">
+                        <h4 class="card-title">Licenses & Certifications</h4>
+                        <div class="social-line">
+                        </div>
+                    </div>
+                    <div class="row card-body pl-4 pb-4">
+                        <div class="col-md-6" *ngFor="let certificate of certificates">
+                            <h5 class="title mb-1">{{certificate.name}}</h5>
+                            <p>
+                                {{certificate.description}}
+                            </p>
+                            <p>
+                                <a class="btn btn-primary btn-link btn-sm" target="_blank" href="{{certificate.link}}">
+                                    <i class="material-icons">
+                                        open_in_new </i> Verify</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

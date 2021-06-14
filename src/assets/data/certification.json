@@ -1,0 +1,26 @@
+[  
+    {  
+      "id": 1,  
+      "name": "Oracle Certified Professional",  
+      "description": "Oracle Certified Professional, Java SE 6 Programmer.",  
+      "link": "https://www.youracclaim.com/users/srivenkatesh-murugan"  
+    },
+    {  
+        "id": 2,  
+        "name": "IBM - Data Science",  
+        "description": "Data Science Foundations - Level 1.",  
+        "link": "https://www.youracclaim.com/users/srivenkatesh-murugan"  
+      },
+      {  
+        "id": 3,  
+        "name": "IBM - Cloud Core",  
+        "description": "IBM - Cloud core Certification.",  
+        "link": "https://www.youracclaim.com/users/srivenkatesh-murugan"  
+      },
+      {  
+        "id": 4,  
+        "name": "IBM - Containers & Kubernetes Essentials",  
+        "description": "Containers & Kubernetes Essentials.",  
+        "link": "https://www.youracclaim.com/users/srivenkatesh-murugan"  
+      } 
+]
