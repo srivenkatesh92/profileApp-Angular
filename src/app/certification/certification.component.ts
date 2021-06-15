@@ -22,8 +22,7 @@ export class CertificationComponent implements OnInit {
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
-    this.httpClient.get("assets/data/certification.json").subscribe(data =>{
-      console.log(data);
+    this.httpClient.get("assets/data/certification.json").subscribe(data =>{      
       this.certificates = data;
     })
   }
