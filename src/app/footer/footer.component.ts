@@ -8,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
+  
+  monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"];
 
+  lastUpdate = "";
   ngOnInit(): void {
+   const d = new Date();   
+   this.lastUpdate = "Last updated on "+this.monthNames[d.getMonth()]+",", d.getFullYear()+".";
   }
 
 }
