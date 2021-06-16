@@ -1,0 +1,124 @@
+<div class="secondary mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+                <div class="card card-nav-tabs">
+                    <div class="card-header card-header-primary">
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" href="#experience" data-toggle="tab">
+                                            <i class="material-icons">work</i> .experience()
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#education" data-toggle="tab">
+                                            <i class="material-icons">school</i> .education()
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#skills" data-toggle="tab">
+                                            <i class="material-icons">whatshot</i> .skills()
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="experience">
+                                <div class="row">
+                                    <div class="col-md-6" *ngFor="let experience of experiences">
+                                        <h4 class="title mb-1">
+                                            {{experience.designation}}
+                                        </h4>
+                                        <p>{{experience.companyName}}</p>
+                                        <p class="text-muted">{{experience.year}}</p>
+                                        <b>Responsibilities:</b>
+                                        <ul>
+                                            <li *ngFor="let responsibility of experience.Responsibilities">
+                                                {{responsibility}}
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            <b>Awards: </b>{{experience.awards}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="education">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 class="title mb-1">
+                                            Raja College of Engineering and Technology, Madurai
+                                        </h4>
+                                        <p>Bachelor's Degree, Information Technology</p>
+                                        <p class="text-muted">2009-2013</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 class="title mb-1">
+                                            Sri Jayendra Golden Jubilee School, Tirunelveli
+                                        </h4>
+                                        <p>Schooling</p>
+                                        <p class="text-muted">X, XII</p>
+                                        <div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="skills">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h4 class="title mb-1">&lt;Languages /&gt;</h4>
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>Javascript</li>
+                                            <li>SQL</li>
+                                            <li>UNIX</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="title mb-1">&lt;Frameworks /&gt;</h4>
+                                        <ul>
+                                            <li>Spring</li>
+                                            <li>Hibernate</li>
+                                            <li>AngularJS</li>
+                                            <li>ExtJS</li>
+                                            <li>jQuery</li>
+                                            <li>Angular 2+</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="title mb-1">&lt;Tools /&gt;</h4>
+                                        <ul>
+                                            <li>Eclipse, IntelliJ, Spring Tool Suite, Netbeans, VS Code</li>
+                                            <li>SQL Developer</li>
+                                            <li>Tectia, Putty</li>
+                                            <li>Autosys, JIRA, Bitbucket, Docker, kubernetes</li>
+                                            <li>DevOps - Teamcity, uDeploy</li>
+                                            <li>App Servers - Welogic, WebSphere, Tomcat</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4 class="title mb-1">&lt;Repo /&gt;</h4>
+                                        <ul>
+                                            <li>Git</li>
+                                            <li>SVN</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
