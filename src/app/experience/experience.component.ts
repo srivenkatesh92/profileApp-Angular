@@ -1,6 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http"; 
 
+interface experiences {  
+  id: Number;  
+  companyName: String;  
+  designation: String;  
+  year: String;
+  Responsibilities: String;
+  awards: String;  
+} 
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',

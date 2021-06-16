@@ -33,86 +33,23 @@
                         <div class="tab-content">
                             <div class="tab-pane active show" id="experience">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6" *ngFor="let experience of experiences">
                                         <h4 class="title mb-1">
-                                            Specialist Software Engineering
+                                            {{experience.designation}}
                                         </h4>
-                                        <p>LTI - Larsen & Toubro Infotech</p>
-                                        <p class="text-muted">June 2018 - Present</p>
+                                        <p>{{experience.companyName}}</p>
+                                        <p class="text-muted">{{experience.year}}</p>
                                         <b>Responsibilities:</b>
                                         <ul>
-                                            <li>
-                                                Development of new modules from scratch.
-                                            </li>
-                                            <li>
-                                                Analysis on Existing functionality for Automation and performance
-                                                tuning.
-                                            </li>
-                                            <li>
-                                                Functional changes depends on requirements.
-                                            </li>
-                                            <li>
-                                                Hands-on exposure to handle DevOps tools such as Teamcity, uDeploy and
-                                                other components.
+                                            <li *ngFor="let responsibility of experience.Responsibilities">
+                                                {{responsibility}}
                                             </li>
                                         </ul>
                                         <p>
-                                            <b>Awards: </b>“PRIDE Award” - For outstanding performance, service and
-                                            dedication.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4 class="title mb-1">
-                                            Systems Engineer
-                                        </h4>
-                                        <p>TCS - Tata Consultancy Services</p>
-                                        <p class="text-muted">Aug 2015 - May 2018</p>
-                                        <b>Responsibilities:</b>
-                                        <ul>
-                                            <li>
-                                                Implementing project level utilities and Module level UI components.
-                                            </li>
-                                            <li>
-                                                Analysis on Existing functionality for Enhancement.
-                                            </li>
-                                            <li>
-                                                Developing custom components for other modules.
-                                            </li>
-                                            <li>
-                                                Suggestion and implementation of new User experience components.
-                                            </li>
-                                        </ul>
-                                        <p><b>Awards: </b>On the Spot Award.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h4 class="title mb-1">
-                                            Software Developer
-                                        </h4>
-                                        <p>Cazaayan Inc</p>
-                                        <p class="text-muted">Feb 2013 - Jul 2015</p>
-                                        <b>Responsibilities:</b>
-                                        <ul>
-                                            <li>
-                                                Development of new modules from scratch.
-                                            </li>
-                                            <li>
-                                                Analysis on Existing functionality for Automation and performance
-                                                tuning.
-                                            </li>
-                                            <li>
-                                                Functional changes depends on requirements.
-                                            </li>
-
-                                        </ul>
-                                        <p>
-                                            <b>Awards: </b>High performer recognition and appreciation.
+                                            <b>Awards: </b>{{experience.awards}}
                                         </p>
                                     </div>
                                 </div>
-
-
                             </div>
 
                             <div class="tab-pane" id="education">
