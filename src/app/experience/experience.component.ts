@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from "@angular/common/http"; 
 
 @Component({
   selector: 'app-experience',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  constructor() { }
+  experienceTitle = ".experience()";
+  experiences: any = [];
+
+  constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
+    this.httpClient.get("assets/data/experience.json").subscribe(data =>{      
+      this.experiences = data;
+    })
   }
 
 }
