@@ -29,8 +29,14 @@
             ],
             "styles": [
               "src/styles.scss"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js",
+              "./node_modules/material-kit/assets/js/material-kit.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -125,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "profileApp"
 }
