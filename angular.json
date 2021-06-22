@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "css"
         }
       },
       "root": "",
@@ -27,8 +27,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
+            "styles": [             
               
             ],
             "scripts": [
@@ -99,8 +98,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/font-awesome/css/font-awesome.css",
-              "src/styles.scss"
+                           
             ],
             "scripts": []
           }
