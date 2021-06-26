@@ -1,0 +1,28 @@
+    {
+        "socialLink": [
+            {
+                "id": 1,
+                "name": "twitter",
+                "href": "https://twitter.com/_Srivenkatesh_",
+                "class": "btn btn-just-icon btn-link btn-twitter",
+                "css": "fab fa-twitter"
+            },
+            {
+                "id": 2,
+                "name": "linkedin",
+                "href": "https://www.linkedin.com/in/srivenkateshmurugan/",
+                "class": "btn btn-just-icon btn-link btn-linkedin",
+                "css": "fab fa-linkedin"
+            },
+            {
+                "id": 3,
+                "name": "github",
+                "href": "https://www.github.com/srivenkatesh92",
+                "class": "btn btn-just-icon btn-link btn-github",
+                "css": "fab fa-github"
+            }
+        ],
+        "title": ".about()",
+        "header": "Fullstack Web Developer",
+        "description": "I'm a Fullstack web developer. Experienced in Software development and maintenance exposure on enterprise J2EE applications. Sound knowledge in Banking and Financial Application Development. Extensively worked on Java, J2EE, Spring Frameworks, Hibernate, Javascript, Angular, Application servers such as Weblogic, Websphere and Tomcat. Flexible and adaptable across multiple development technologies and Methodologies."
+    }
