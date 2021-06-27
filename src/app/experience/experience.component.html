@@ -6,7 +6,7 @@
                     <div class="card-header card-header-primary">
                         <div class="nav-tabs-navigation">
                             <div class="nav-tabs-wrapper">
-                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                <ul class="nav nav-tabs" data-tabs="tabs">                        
                                     <li class="nav-item">
                                         <a class="nav-link active show" href="#experience" data-toggle="tab">
                                             <i class="material-icons">work</i> .experience()
@@ -54,22 +54,11 @@
 
                             <div class="tab-pane" id="education">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <h4 class="title mb-1">
-                                            Raja College of Engineering and Technology, Madurai
-                                        </h4>
-                                        <p>Bachelor's Degree, Information Technology</p>
-                                        <p class="text-muted">2009-2013</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4 class="title mb-1">
-                                            Sri Jayendra Golden Jubilee School, Tirunelveli
-                                        </h4>
-                                        <p>Schooling</p>
-                                        <p class="text-muted">X, XII</p>
-                                        <div>
-                                        </div>
-                                    </div>
+                                    <div class="col-md-6" *ngFor="let education of educations">
+                                        <h4 class="title mb-1">{{education.name}}</h4>
+                                        <p>{{education.course}}</p>
+                                        <p class="text-muted">{{education.year}}</p>
+                                    </div>                                    
                                 </div>
                             </div>
 
