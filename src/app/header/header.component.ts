@@ -14,8 +14,7 @@ export class HeaderComponent implements OnInit {
   backgroundImage = ''; 
 
   ngOnInit(): void {
-    this.backgroundImage = this.imagePath + this.CommonUtilsService.getRandomNumber(1,7) + '.PNG';
-    //this.backgroundImage = this.imagePath + "1" + '.gif';
+    this.backgroundImage = this.imagePath + this.CommonUtilsService.getRandomNumber(1,8) + '.PNG';
   }
 
 }
