@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonUtilsService } from '../common-utils.service';
 
 @Component({
   selector: 'app-header',
@@ -7,17 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private CommonUtilsService: CommonUtilsService) { }
 
   imagePath = './assets/img/background/bg-code-';
-  backgroundImage = '';
-
-  randomNumber = function(min : any, max : any) {
-    return Math.floor(Math.random() * (max - min) + min);
-  }
+  backgroundImage = ''; 
 
   ngOnInit(): void {
-    this.backgroundImage = this.imagePath + this.randomNumber(1,6) + '.PNG';
+    this.backgroundImage = this.imagePath + this.CommonUtilsService.getRandomNumber(1,7) + '.PNG';
     //this.backgroundImage = this.imagePath + "1" + '.gif';
   }
 
