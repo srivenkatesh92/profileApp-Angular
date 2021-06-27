@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HeaderComponent } from './header/header.component';
+import { CommonUtilsService } from './common-utils.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [CommonUtilsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
