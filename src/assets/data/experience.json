@@ -1,10 +1,23 @@
 {
     "experience": [
-        {
+      {
             "id": 1,
+            "companyName": "Fidelity Investments",
+            "designation": "Lead Software Engineer",
+            "year": "Sep 2021 - Present",
+            "Responsibilities": [
+                "I will update shortly..."
+                
+            ],
+            "awards": [
+                "I will update shortly..."
+            ]
+        },
+        {
+            "id": 2,
             "companyName": "LTI - Larsen & Toubro Infotech",
             "designation": "Specialist Software Engineering",
-            "year": "June 2018 - Present",
+            "year": "June 2018 - Aug 2021",
             "Responsibilities": [
                 "Development of new modules from scratch.",
                 "Analysis on Existing functionality for Automation and performance tuning.",
@@ -16,7 +29,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "companyName": "TCS - Tata Consultancy Services",
             "designation": "Systems Engineer",
             "year": "Aug 2015 - May 2018",
@@ -31,7 +44,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "companyName": "Cazaayan Inc",
             "designation": "Software Developer",
             "year": "Feb 2014 - Jul 2015",
