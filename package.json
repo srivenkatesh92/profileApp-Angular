@@ -29,7 +29,7 @@
     "material-kit": "^2.0.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.12",
+    "@angular-devkit/build-angular": "^20.1.2",
     "@angular/cli": "^17.3.12",
     "@angular/compiler-cli": "^17.3.12",
     "@angular/language-service": "^17.3.12",
