@@ -29,7 +29,7 @@
     "material-kit": "^2.0.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.12",
+    "@angular-devkit/build-angular": "^20.1.3",
     "@angular-eslint/builder": "17.5.3",
     "@angular-eslint/eslint-plugin": "17.5.3",
     "@angular-eslint/eslint-plugin-template": "17.5.3",
